@@ -1,0 +1,86 @@
+.BodyContainor{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3f9ff;
+  }
+  
+  .Main_containor{
+      width: 90%;
+      height: auto;
+      border-radius: 10px;
+      background-color: #3a4452;
+    }
+    
+    .Input_containor{
+      width: 98%;
+      height: 80px;
+      border: 0px solid transparent;
+    }
+    
+    .Input_box{
+      width: 100%;
+      height: 100%;
+      margin: 3px;
+      border: 0;
+      outline: 0;
+      text-align: right;
+      font-size: 3rem;
+      color: #fff;
+      background: transparent;
+    }
+    
+    .buttons{
+      margin: 5px;
+      width: 100%;
+      height: 100%;
+      /* background-color: blue; */
+    }
+    .Each_button{
+      margin: 10px;
+      width: 50px;
+      height: 50px;
+      border: 0px;
+      border-radius: 10px;
+      box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+      font-size: 20px;
+      background: transparent;
+      color: #fff;
+      cursor: pointer;
+    }
+  @media screen and (min-width: 375px ) {
+    .Main_containor{
+      width: 78%;
+    }
+  }
+  @media screen and (min-width: 425px ) {
+    .Main_containor{
+      width: 68%;
+    }
+  }
+  @media screen and (min-width: 768px ) {
+    .Main_containor{
+      width: 55%;
+    }
+    .Input_containor{
+      height: 120px;
+    }
+    .Each_button{
+      width: 80px;
+      height: 80px;
+    }
+  }
+  @media screen and (min-width: 1024px ) {
+    .Main_containor{
+      width: 23%;
+    }
+    .Input_containor{
+      height: 80px;
+    }
+    .Each_button{
+      width: 50px;
+      height: 50px;
+    }
+  }
